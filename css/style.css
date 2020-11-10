@@ -1,7 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Sans+Caption:wght@700&family=PT+Sans+Narrow&display=swap');
+
 body {
-  background: #ECEBE4;
+  background: #FBF9F5;
 }
 
-h2 {
-  color: #2CA6A4;
+h1, h2  {
+  font-family: 'PT Sans Caption', sans-serif;
+  color: #7C0B2B;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+}
+
+.banner {
+  height: 450px;
+  background-color: #7C0B2B;
+  padding: 10em 10em;
+  color: #ECEBE4;
+}
+
+.banner h1 {
+  color: #ECEBE4;
+}
+
+.banner p {
+  font-size: 24px;
 }
