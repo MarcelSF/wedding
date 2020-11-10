@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Sans+Caption:wght@700&family=PT+Sans+Narrow&display=swap');
 
+@import url('components/card.css');
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #FBF9F5;
 }
 
-h1, h2  {
+h1, h2, h3  {
   font-family: 'PT Sans Caption', sans-serif;
   color: #7C0B2B;
 }
@@ -17,7 +22,13 @@ p {
 .banner {
   height: 450px;
   background-color: #7C0B2B;
-  padding: 10em 10em;
+  padding: 6em 8em;
+  color: #ECEBE4;
+}
+
+.banner a {
+  font-size: 20px;
+  text-decoration: none;
   color: #ECEBE4;
 }
 
@@ -27,4 +38,10 @@ p {
 
 .banner p {
   font-size: 24px;
+}
+
+.story-img {
+  border-radius: 5px;
+  height: 95vh;
+  background-size: cover;
 }
