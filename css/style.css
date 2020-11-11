@@ -46,6 +46,10 @@ p {
   background-size: cover;
 }
 
+ul {
+  list-style: none;
+}
+
 @media only screen and (max-width: 680px) {
   .story-img {
     height: 70vh;
