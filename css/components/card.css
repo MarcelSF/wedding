@@ -1,6 +1,18 @@
 .paypal-card {
-  background-color: #0B4F6C;
+  border: 1px solid #FC5F6C;
   padding: 50px;
   border-radius: 8px;
+  color:  #7C0B2B;
+  background: white;
+}
+
+.button {
+  font-size: 20px;
+  background-color: #2CA6A4;
   color: white;
+  border-radius: 5px;
+  box-shadow: none;
+  border-style:solid;
+  border:none;
+  padding: 8px 16px;
 }
