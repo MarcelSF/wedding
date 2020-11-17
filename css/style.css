@@ -50,6 +50,19 @@ ul {
   list-style: none;
 }
 
+li a {
+  transition: 0.3s;
+}
+
+li a:hover {
+  text-decoration: none;
+  color:  #FC5F6C;
+}
+
+ul {
+ padding: 0;
+}
+
 @media only screen and (max-width: 680px) {
   .story-img {
     height: 70vh;
