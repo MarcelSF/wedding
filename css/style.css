@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Sans+Caption:wght@700&family=PT+Sans+Narrow&display=swap');
 
 @import url('components/card.css');
+@import url('components/footer.css');
+@import url('components/layout.css');
+
 html {
   scroll-behavior: smooth;
 }
@@ -44,6 +47,7 @@ p {
   border-radius: 5px;
   height: 90vh;
   background-size: cover;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
 }
 
 ul {
