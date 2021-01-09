@@ -67,13 +67,17 @@ ul {
  padding: 0;
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1000px) {
+  .story-sub {
+    margin-top: 0.5em;
+  }
 }
 
 @media only screen and (max-width: 680px) {
   .story-img {
-    height: 70vh;
+    height: 80vh;
   }
+
 
   .banner {
     padding: 4em 4em;
