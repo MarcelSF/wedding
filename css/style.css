@@ -45,7 +45,7 @@ p {
 
 .story-img {
   border-radius: 5px;
-  height: 75vh;
+  height: 540px;
   background-size: cover;
   box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
 }
@@ -74,11 +74,6 @@ ul {
 }
 
 @media only screen and (max-width: 680px) {
-  .story-img {
-    height: 80vh;
-  }
-
-
   .banner {
     padding: 4em 4em;
   }
