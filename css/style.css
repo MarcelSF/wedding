@@ -81,6 +81,10 @@ ul {
   .banner {
     padding: 4em 4em;
   }
+
+  .story-img {
+    height: 430px;
+  }
 }
 
 @media only screen and (max-width: 440px) {
